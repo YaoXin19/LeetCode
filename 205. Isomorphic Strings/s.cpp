@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
+        // 需要两次比对
         bool ans = true;
         std::unordered_map<char, char> m;
         for (int i=0; i<s.size(); ++i) {

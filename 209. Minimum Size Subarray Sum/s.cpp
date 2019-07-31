@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
+        // nums中的最短子串的和满足大于s
         // 滑动窗口, 时间复杂度为O(N)
         int n = nums.size();
         int ans = std::numeric_limits<int>::max();

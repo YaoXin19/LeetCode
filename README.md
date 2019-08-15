@@ -10,6 +10,18 @@
 * 102 树层次
 * 144 树前序
 * 145 树后续
+* 146 Least Recently Used (LRU) cache
+* 148 list的归并，需要空间复杂度为O(1)???
+* slow/fast
+```c++
+ListNode* slow = head;
+ListNode* fast = head->next;
+while (fast && fast->next) {
+    fast = fast->next->next;
+    slow = slow->next;
+}
+ListNode* mid = slow->next;
+```
 
 ### 思路简单，实现简单
 * 1
@@ -60,6 +72,7 @@
 ### 思路复杂，实现复杂
 * 31 特定解法
 * 43 数学问题
+* 130 BFS
 * 179 string的比较
 * 207 拓扑排序
 * 209 滑动窗口

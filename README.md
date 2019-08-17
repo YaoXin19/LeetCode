@@ -72,6 +72,7 @@ ListNode* mid = slow->next;
 ### 思路复杂，实现复杂
 * 31 特定解法
 * 43 数学问题
+* 127 BFS
 * 130 BFS
 * 133
 * 179 string的比较
@@ -79,6 +80,7 @@ ListNode* mid = slow->next;
 * 209 滑动窗口
 * 210 拓扑排序
 * 227 真的难
+* 229 摩尔投票
 * 264 
 * 299 特定解法
 * 300 std::lower_bound

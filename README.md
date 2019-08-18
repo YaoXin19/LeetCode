@@ -45,6 +45,7 @@ ListNode* mid = slow->next;
 * 11 two point
 * 26 two point
 * 27 two point
+* 38 std::vector<std::pair<char, int>>
 * 39 回溯
 * 40 回溯
 * 150 std::function与lamda

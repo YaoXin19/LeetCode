@@ -65,6 +65,7 @@ ListNode* mid = slow->next;
 ### 思路简单，实现复杂
 * 15 two point
 * 16 two point
+* 29 边界条件INT_MIN，INT_MAX
 * 34 二分
 * 48 矩阵原地操作
 * 69 二分边界
@@ -76,6 +77,7 @@ ListNode* mid = slow->next;
 * 414 特定解法，不能用优先级队列
 
 ### 思路复杂，实现复杂
+* 8 其实不是很复杂
 * 31 特定解法
 * 43 数学问题
 * 127 BFS

@@ -26,7 +26,7 @@ while (fast && fast->next) {
 ListNode* mid = slow->next;
 ```
 
-### 思路简单，实现简单
+### level 1 思路简单，实现简单
 * 1
 * 66
 * 103
@@ -43,7 +43,8 @@ ListNode* mid = slow->next;
 * 387
 * 389 使用异或，不用map
   
-### 思路复杂，实现简单
+### level 2 思路复杂，实现简单
+* 3 two point
 * 11 two point
 * 26 two point
 * 27 two point
@@ -66,7 +67,8 @@ ListNode* mid = slow->next;
 * 378 heap, std::priority_queue
 * 383 计数排序的思想
 
-### 思路简单，实现复杂
+### level 3 思路简单，实现复杂
+* 2 
 * 15 two point
 * 16 two point
 * 29 边界条件INT_MIN，INT_MAX
@@ -81,7 +83,7 @@ ListNode* mid = slow->next;
 * 397 回溯，时间空间复杂度较高
 * 414 特定解法，不能用优先级队列
 
-### 思路复杂，实现复杂
+### level 4 思路复杂，实现复杂
 * 8 其实不是很复杂
 * 31 特定解法
 * 43 数学问题
@@ -100,6 +102,18 @@ ListNode* mid = slow->next;
 * 300 std::lower_bound
 * 400
 * 448 特定解法
+
+### Two Pointer
+#### 两边向中间
+#### 快慢指针
+##### 快指针增加元素，慢指针减小元素,记录vector的最小(大)长度
+- 3 
+
+
+### 编号顺序
+- 1
+- 2 
+
 
 
 

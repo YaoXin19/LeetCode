@@ -4,6 +4,7 @@
 * 所有动态规划的题目暂时使用递归(回溯)暴力求解
 
 ### 基础
+* 7. Reverse Integer
 * 88 归并排序
 * 206 反转list
 * 208 前缀树
@@ -84,6 +85,7 @@ ListNode* mid = slow->next;
 * 414 特定解法，不能用优先级队列
 
 ### level 4 思路复杂，实现复杂
+* 5 求最长回文子串, 最优解-马拉车
 * 8 其实不是很复杂
 * 31 特定解法
 * 43 数学问题
@@ -114,7 +116,8 @@ ListNode* mid = slow->next;
 - 1
 - 2 
 
-
+### BT改DP
+- 5	Longest Palindromic Substring
 
 
 ### 参考

@@ -29,6 +29,9 @@ ListNode* mid = slow->next;
 
 ### level 1 思路简单，实现简单
 * 1
+* 9
+* 19
+* 20
 * 66
 * 103
 * 167
@@ -70,7 +73,7 @@ ListNode* mid = slow->next;
 
 ### level 3 思路简单，实现复杂
 * 2 
-* 15 two point
+* 15 注意去重
 * 16 two point
 * 29 边界条件INT_MIN，INT_MAX
 * 34 二分
